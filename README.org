@@ -1,0 +1,28 @@
+* learn autotools the hard way
+
+TOC
+
+** executable
+- [ ] "hello world": single file
+- [ ] "hello world": multiple files
+- [ ] "hello world": multiple files, multiple makefiles
+- [ ] generate multiple executable files
+
+
+** library
+- [ ] static library: single file
+- [ ] static library: multiple files
+- [ ] static library: multiple files, multiple makefiles
+- [ ] generate multiple static libraries.
+- [ ] shared library: single file
+- [ ] shared library: multiple files
+- [ ] shared library: multiple files, multiple makefiles
+- [ ] generate multiple shared libraries.
+
+
+** executable & library
+- [ ] "hello world": linking against static library
+- [ ] "hello world": linking against shared library
+- [ ] static library, linking against shared library
+- [ ] shared library, linking against static library
+

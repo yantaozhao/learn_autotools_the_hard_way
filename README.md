@@ -1,1 +1,0 @@
-# learn_autotools_the_hard_way
