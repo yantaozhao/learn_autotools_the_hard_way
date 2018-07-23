@@ -1,0 +1,14 @@
+% ls
+main.cpp
+
+1. autoscan
+2. mv configure.scan configure.ac
+3. touch Makefile.am
+
+Then:
+1. autoreconf -if
+2. ./configure
+3. make
+
+Finally:
+./hiworld
