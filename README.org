@@ -21,7 +21,7 @@ TOC
 
 
 ** executable & library
-- [ ] "hello world": linking against static library
+- [X] "hello world": linking against static library
 - [ ] "hello world": linking against shared library
 - [ ] static library, linking against shared library
 - [ ] shared library, linking against static library
