@@ -5,7 +5,7 @@ TOC
 ** executable
 - [X] "hello world": single file
 - [X] "hello world": multiple files
-- [ ] "hello world": multiple files, multiple makefiles
+- [ ] +"hello world": multiple files, multiple makefiles+
 - [ ] generate multiple executable files
 
 
