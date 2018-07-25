@@ -1,29 +1,34 @@
 * learn autotools the practical way
 
-TOC
-
 ** executable
-- [X] "hello world": single file
-- [X] "hello world": multiple files
-- [ ] +"hello world": multiple files, multiple makefiles+
+- [X] hello world: single file  [helloworld_s]
+- [X] hello world: multiple files  [helloworld_m1, helloworld_m2]
+- [ ] +hello world: multiple files, multiple makefiles+
 - [ ] generate multiple executable files
 
 
 ** library
-- [X] static library: single file
+- [X] static library: single file  [library_s1, library_s2]
+- [X] shared library: single file  [library_s1, library_s2]
 - [ ] static library: multiple files
 - [ ] static library: multiple files, multiple makefiles
 - [ ] generate multiple static libraries.
-- [X] shared library: single file
 - [ ] shared library: multiple files
 - [ ] shared library: multiple files, multiple makefiles
 - [ ] generate multiple shared libraries.
-- [ ] library, linking against other libraries
+- [X] library, linking against other libraries  [library_linking_libraries_a_a, library_linking_libraries_so_ca]
 
 
 ** executable & library
-- [X] "hello world": linking against static library
-- [X] "hello world": linking against shared library
+- [X] hello world: linking against static library  [helloworld_linking_a]
+- [X] hello world: linking against shared library  [helloworld_linking_so1]
 - [ ] +static library, linking against shared library+
 - [ ] +shared library, linking against static library+
+
+
+** Packages used:
+Ubuntu 16.04 LTS  \\
+~apt list ...~ :
+
+autoconf: v2.69 / automake: v1.15 / libtool: v2.4.6
 
