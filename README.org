@@ -1,4 +1,4 @@
-* learn autotools the hard way
+* learn autotools the practical way
 
 TOC
 
@@ -10,19 +10,20 @@ TOC
 
 
 ** library
-- [ ] static library: single file
+- [X] static library: single file
 - [ ] static library: multiple files
 - [ ] static library: multiple files, multiple makefiles
 - [ ] generate multiple static libraries.
-- [ ] shared library: single file
+- [X] shared library: single file
 - [ ] shared library: multiple files
 - [ ] shared library: multiple files, multiple makefiles
 - [ ] generate multiple shared libraries.
+- [ ] library, linking against other libraries
 
 
 ** executable & library
 - [X] "hello world": linking against static library
 - [X] "hello world": linking against shared library
-- [ ] static library, linking against shared library
-- [ ] shared library, linking against static library
+- [ ] +static library, linking against shared library+
+- [ ] +shared library, linking against static library+
 
